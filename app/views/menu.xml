@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="menu">
+
+		<TableView id="table">
+			<TableViewRow id="register" title="Register"/>
+			<TableViewRow id="login" title="Login"/>
+			<TableViewRow id="about" title="About MOFILM"/>
+			<TableViewRow id="term" title="Contest Disclaimer"/>
+		</TableView>
+	</Window>
+</Alloy>

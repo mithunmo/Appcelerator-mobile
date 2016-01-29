@@ -1,0 +1,27 @@
+"TableViewRow[platform=android]": { 
+    font: { 
+       fontSize: '24' 
+    }, 
+    height: '80' 
+}
+
+"#event": {
+	top: "10dp",
+	left: "10dp",
+	color: "#000",
+	font: {
+		fontSize: '12dp',
+		fontWeight: 'bold'
+	}
+}
+
+
+"#detailLabel": {
+	top:"30dp",
+	left: "10dp",
+	color: "#000",
+	font: {
+		fontSize: '12dp',
+		fontWeight: 'bold'
+	}
+}

@@ -1,0 +1,10 @@
+"#tabList[platform=ios formFactor=handheld]": {
+    icon: 'images/4_collections_view_as_list.png'
+}
+
+".trow[platform=android]": { 
+    font: { 
+       fontSize: '24' 
+    }, 
+    height: '70' 
+}

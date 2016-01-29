@@ -1,0 +1,11 @@
+<Alloy>
+    <Window id="detail" backgroundColor="#f0ede4">
+ <!--   	
+		<ImageView id="eventImage" />    	 
+        <Label id="detailLabel" />
+        <Label id="event" />
+  -->   
+  
+  
+    </Window>
+</Alloy>

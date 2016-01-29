@@ -1,0 +1,27 @@
+<Alloy>
+   <Tab id="tabList" platform="ios">
+	<Window id="list">
+            <View id="ll"> 
+               <!-- <ActivityIndicator id="activityIndicator" /> -->
+                <Label id="labelNoRecords" />
+            <!--    <Label id="status" color="#576c89" text="Pull down to refresh..." textAlign="center" left="55"  top="10" width="200" height="10" /> -->
+        		<!-- <ScrollView id="pull" showVerticalScrollIndicator="true" height="100%" contentHeight="2000" layout="vertical">
+                 <TableView id="tableRecords" />  
+            </ScrollView> -->
+            </View>
+        </Window>
+    </Tab>
+    
+  	<Window id="list" platform="android" exitOnClose="true">
+            <View id="ll"> 
+             <!--   <ActivityIndicator id="activityIndicator" /> -->
+                <Label id="labelNoRecords" />
+            <!--    <Label id="status" color="#576c89" text="Pull down to refresh..." textAlign="center" left="55"  top="10" width="200" height="10" /> -->
+        		<!-- <ScrollView id="pull" showVerticalScrollIndicator="true" height="100%" contentHeight="2000" layout="vertical"> 
+                 <TableView id="tableRecords" >
+                 </TableView>	  
+           < </ScrollView> -->
+            </View>
+            
+    </Window>   
+</Alloy>

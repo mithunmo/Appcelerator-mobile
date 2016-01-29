@@ -1,0 +1,15 @@
+<Alloy>
+	
+  <TabGroup id="tabGroup" platform="ios">
+       <Require src="iilist" id="tabList" /> 
+    </TabGroup>
+        
+    <Window id="tabGroup" platform="android">
+    </Window>	
+    
+   <!-- <TabGroup id="tabGroup">
+        <Require src="home" id="tabHome" /> 
+       <Require src="list" id="tabList" /> 
+    </TabGroup>
+   -->
+</Alloy>

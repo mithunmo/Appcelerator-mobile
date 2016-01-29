@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-service-baseurl-mof">http://localhost:51980</property>
+    <property name="acs-oauth-secret-development" type="string">zBl5ZxQDcpgkIXooXvuma2Wd8zb2o5zB</property>
+    <property name="acs-oauth-key-development" type="string">VahdW674ZTVnMC4ZgBI9fXKocqEui0SZ</property>
+    <property name="acs-api-key-development" type="string">dkIAjrvE3JM8PPIJulEgeUstjqw3uMV1</property>
+    <property name="acs-oauth-secret-production" type="string">IGfwEyhw2XcKpzz8Yt6r7KgxTTVEgLYs</property>
+    <property name="acs-oauth-key-production" type="string">vrkBZkBKWrvMJWu5Mx1BtTUIVMK9wPhz</property>
+    <property name="acs-api-key-production" type="string">ooOCtsPx0JhZgXdnXAMse5SsK5uCTr9u</property>
+    <property name="acs-push-type-development" type="string">gcm</property>
+    <property name="acs-push-type-production" type="string">gcm</property>
+    <property name="acs-push-type" type="string">gcm</property>
+    <property name="acs-grouped-notification-message" type="string">You have $number$ unread messages.</property>
+    <id>com.mofilm.app</id>
+    <!--<id>com.mofilm.app_android</id>-->
+    <name>MOFILM</name>
+    <version>3.4</version>
+    <publisher>mithunmohan</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2014 by mithunmohan</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>db623d84-e49a-4457-9777-6a5943d2c902</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest android:versionCode="3" android:versionName="1.1">
+            <!--	 <application android:theme="@android:style/Theme.MyAppTheme" android:screenOrientation="portrait"/> -->
+            <application android:screenOrientation="portrait" android:theme="@style/Theme.Bluestyle"/>
+            <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="21"/>
+            <!--   <application android:screenOrientation="portrait" android:theme="@style/Theme.MyAppTheme"/> -->
+            <supports-screens android:anyDensity="true"/>
+        </manifest>
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+        <module platform="android">ti.cloudpush</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="ipad">false</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>4.1.0.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">55ba16cf4ef3cf3908b641be</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">xQF90Xd5CIJ5y9Moyr</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">VqNpVLIoTXdNQ44A3d</property>
+    <property name="appc-org-id" type="string">100030473</property>
+    <property name="appc-creator-user-id" type="string">b9d9c067-ce6d-4f7b-9759-0e896f7cd165</property>
+</ti:app>
